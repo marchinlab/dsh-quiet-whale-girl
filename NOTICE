@@ -1,0 +1,49 @@
+Quiet Whale Girl / 安静的鲸鱼娘
+Copyright 2026 marchinlab
+
+This product includes software and character assets from several sources.
+Please read CREDITS.md, LICENSE, LICENSE-PLAYER and LICENSE-CHARACTERS.
+
+--------------------------------------------------------------------------------
+Software (Apache-2.0)
+--------------------------------------------------------------------------------
+
+1. Plugin code (lib/, cordis.patch.yml, package metadata, docs)
+   Copyright 2026 marchinlab
+   Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+2. LivLiv Player — the 2.5D character renderer in assets/runtime/
+   Copyright 2026 LivLiv
+   Licensed under the Apache License, Version 2.0 (see LICENSE-PLAYER).
+   Source: https://github.com/livliv-dev/player
+   The renderer uses no Live2D software or Cubism SDK and reads no .moc3/.cmo3.
+   "Live2D" is a trademark of Live2D Inc.; no affiliation is implied.
+
+--------------------------------------------------------------------------------
+Character assets (CC BY-NC-SA 4.0, NON-COMMERCIAL)
+--------------------------------------------------------------------------------
+
+assets/characters/p01/ (Kujira) and p02/ (Kujira Q) are NOT covered by the
+Apache License or by the LivLiv Featured Characters License. They are licensed
+under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+  Original character "鲸鱼娘 / 溟月" (Kujira) - 上善无形
+    https://www.bilibili.com/opus/1231977657712771073
+  Maid design - ZipZipPipe
+    https://www.bilibili.com/video/BV1tE9XBbErS/
+  Layered, rigged LivLiv models (AI-assisted) - LivLiv (livliv.ai)
+
+  Required credit on any reuse:
+    "Kujira: 上善无形, ZipZipPipe (CC BY-NC-SA 4.0); model by LivLiv."
+
+  These are unofficial community characters, not connected with DeepSeek.
+  Non-commercial use only; adaptations must be shared under the same license.
+  See CREDITS.md and LICENSE-CHARACTERS for the full terms.
+
+--------------------------------------------------------------------------------
+Note
+--------------------------------------------------------------------------------
+
+This plugin does not use Live2D Cubism SDK. The LivLiv mark drawn by the player
+on these characters is preserved as required by the upstream format.

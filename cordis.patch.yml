@@ -1,0 +1,9 @@
+- insert:
+    - id: dsh-quiet-whale-girl
+      name: 'dsh-quiet-whale-girl'
+      config:
+        enabled: true
+        character: p01
+        size: 260
+        gaze: true
+        autoExpressions: true
