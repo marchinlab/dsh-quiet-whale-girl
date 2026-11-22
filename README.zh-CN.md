@@ -8,7 +8,12 @@
 
 > 这是非官方的社区角色与插件，与 DeepSeek、LivLiv 均无关联，也未获其背书。
 
-![安静的鲸鱼娘](assets/characters/p01/cover.webp)
+<table align="center">
+  <tr>
+    <td align="center"><img src="assets/characters/p01/cover.webp" alt="Kujira 仿真人版" width="260" /><br /><b>Kujira · 仿真人版（p01）</b></td>
+    <td align="center"><img src="assets/characters/p02/cover.webp" alt="Kujira Q 版" width="260" /><br /><b>Kujira Q · Q 版（p02）</b></td>
+  </tr>
+</table>
 
 ---
 
