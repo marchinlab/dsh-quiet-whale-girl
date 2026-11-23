@@ -35,7 +35,7 @@ She is *quiet* on purpose: no voice, no network calls, no prompt injection, no t
 
 ## Install
 
-From npm (when published):
+From npm:
 
 ```sh
 dsh plugin --profile web add dsh-quiet-whale-girl
