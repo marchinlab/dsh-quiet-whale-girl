@@ -29,7 +29,7 @@
 
 | 项目 | 版本 |
 |---|---|
-| DeepSeek Harness | web profile，支持插件（`>= 0.1.x`） |
+| DeepSeek Harness | web profile，支持插件（`0.1.x` 或 `0.2.x`） |
 | Node.js | `>= 22.12.0`（宿主侧，DSH 自带） |
 | 浏览器 | WebGL2 + ES2023（Chrome / Edge 97+、Firefox 104+、Safari 15.4+） |
 

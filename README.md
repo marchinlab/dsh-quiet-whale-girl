@@ -29,7 +29,7 @@ She is *quiet* on purpose: no voice, no network calls, no prompt injection, no t
 
 | Item | Version |
 |---|---|
-| DeepSeek Harness | web profile, with plugin support (`>= 0.1.x`) |
+| DeepSeek Harness | web profile, with plugin support (`0.1.x` or `0.2.x`) |
 | Node.js | `>= 22.12.0` (host side; DSH provides this) |
 | Browser | WebGL2 + ES2023 (Chrome / Edge 97+, Firefox 104+, Safari 15.4+) |
 
