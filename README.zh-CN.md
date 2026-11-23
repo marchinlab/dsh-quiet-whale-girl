@@ -86,7 +86,7 @@ dsh plugin --profile web remove dsh-quiet-whale-girl
   - `/quiet-whale-girl/config` —— 给浏览器半区的当前配置
   - `/quiet-whale-girl/runtime/*` —— LivLiv Player 的 ES 模块
   - `/quiet-whale-girl/characters/*` —— Kujira / Kujira Q 的模型与贴图
-  所有路由只服务 `assets/` 内的文件，`..` 路径穿越会被拒绝。
+  所有路由只服务 `assets/` 内的文件，`..` 路径穿越会被拒绝。它们注册在裸 `webServer` 上，不自动继承 Connection 的鉴权栅栏，所以每个请求会先过宿主自己的 `ctx.connection.requestRejection`（Host/Origin 校验 + 浏览器登录态）：跨站页面返回 403，未登录返回 401。没有该服务的旧版宿主保持原来的行为。
 - `lib/client.js` —— 浏览器半区，手写的 `__ModuleLoader__` 工厂（无构建步骤）。注入 `shell.overlay` 插槽组件，创建 canvas，`import()` 运行时并调用 `new Player(canvas).load(...)`。
 - `cordis.patch.yml` —— 把插件行插入 DSH 配置树。
 

@@ -86,7 +86,7 @@ The package is a standard **DSH bundle**:
   - `/quiet-whale-girl/config` — effective config for the client
   - `/quiet-whale-girl/runtime/*` — LivLiv Player ES modules
   - `/quiet-whale-girl/characters/*` — Kujira / Kujira Q model + textures
-  All routes only serve files inside `assets/`; path traversal (`..`) is rejected.
+  All routes only serve files inside `assets/`; path traversal (`..`) is rejected. They are registered on the bare `webServer`, which does not inherit Connection's authentication fence, so every request first passes the host's own `ctx.connection.requestRejection` (Host/Origin fence plus browser login): cross-site pages get 403, signed-out requests 401. Hosts without that service keep the previous behaviour.
 - `lib/client.js` — browser half, hand-written `__ModuleLoader__` factory (no build step). Injects a `shell.overlay` slot component, creates a canvas, `import()`s the runtime and calls `new Player(canvas).load(...)`.
 - `cordis.patch.yml` — inserts the plugin row into the DSH config tree.
 
