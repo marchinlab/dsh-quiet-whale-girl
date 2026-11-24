@@ -8,12 +8,11 @@ She is *quiet* on purpose: no voice, no network calls, no prompt injection, no t
 
 > This is an unofficial community character and plugin. It is not affiliated with, endorsed by, or connected to DeepSeek or LivLiv.
 
-<table align="center">
-  <tr>
-    <td align="center"><img src="assets/characters/p01/cover.webp" alt="Kujira — realistic" width="260" /><br /><b>Kujira · realistic (p01)</b></td>
-    <td align="center"><img src="assets/characters/p02/cover.webp" alt="Kujira Q — chibi" width="260" /><br /><b>Kujira Q · chibi (p02)</b></td>
-  </tr>
-</table>
+## Screenshots
+
+Both forms ship in the plugin and switch with one click on the pet: Kujira (p01, realistic) on the left, Kujira Q (p02, chibi) on the right.
+
+<img src="assets/screenshots/duo.webp" alt="Screenshots: Kujira (p01) and Kujira Q (p02) side by side" width="820" />
 
 ---
 

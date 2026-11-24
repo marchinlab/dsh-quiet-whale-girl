@@ -8,12 +8,11 @@
 
 > 这是非官方的社区角色与插件，与 DeepSeek、LivLiv 均无关联，也未获其背书。
 
-<table align="center">
-  <tr>
-    <td align="center"><img src="assets/characters/p01/cover.webp" alt="Kujira 仿真人版" width="260" /><br /><b>Kujira · 仿真人版（p01）</b></td>
-    <td align="center"><img src="assets/characters/p02/cover.webp" alt="Kujira Q 版" width="260" /><br /><b>Kujira Q · Q 版（p02）</b></td>
-  </tr>
-</table>
+## 预览
+
+两种形态都打包在插件里，点桌宠上的小按钮就能切：左边是 Kujira（p01，仿真人版），右边是 Kujira Q（p02，Q 版）。
+
+<img src="assets/screenshots/duo.webp" alt="截图：Kujira（p01）与 Kujira Q（p02）并排" width="820" />
 
 ---
 
