@@ -19,7 +19,7 @@ Both forms ship in the plugin and switch with one click on the pet: Kujira (p01,
 ## Features
 
 - **A pet that lives in DSH** — rendered as a floating overlay on top of the DSH Web GUI (`shell.overlay`). **Drag it by the character itself** — anywhere on her, not just a handle — and she remembers where you left her in `localStorage`.
-- **Two whale forms** — Kujira (`p01`, realistic) and Kujira Q (`p02`, chibi). Hover the pet and the control bar appears: the form switch sits on top, and the row underneath picks an expression (`默认 / 笑 / 害羞 / 生气 / 难过`).
+- **Two whale forms** — Kujira (`p01`, realistic) and Kujira Q (`p02`, chibi). Hover the pet and the control bar appears in the bottom-right corner: the form switch sits on top, and the row underneath picks an expression (`默认 / 笑 / 害羞 / 生气 / 难过`).
 - **Gentle life** — eyes follow the cursor; occasional blink, soft smile or shy look at long, irregular intervals. Tap the character for a nod / tilt / shy reaction.
 - **Local-first** — the renderer and character files are bundled in the plugin and served by the host over a same-origin route. No CDN, no external API, no telemetry.
 - **Quiet by design** — no speech, no ASR/TTS, no session or tool event hooks, no changes to your prompts or agent behaviour.

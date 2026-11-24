@@ -1,6 +1,6 @@
 {
   "name": "dsh-quiet-whale-girl",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "安静的鲸鱼娘 — Live2D-style 2.5D desktop pet for DeepSeek Harness (DSH), based on LivLiv Player and the Kujira community character. 基于 LivLiv Player 与鲸鱼娘社区角色的 DSH 桌宠插件。",
   "icon": "icon.webp",
   "keywords": [
